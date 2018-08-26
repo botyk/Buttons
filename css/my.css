@@ -1,0 +1,119 @@
+* {margin: 0;padding: 0}
+html,body {
+	font: 14px/20px Arial, Helvetica, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+	margin: 0;
+	height: 100%;
+}
+p {margin-bottom: 20px}
+p:last-child {margin-bottom: 0}
+h1,h2,h3,h4 {
+	margin-bottom: 20px;
+}
+hr {
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	margin: 20px 0;
+}
+.container {
+	background: #fff;
+	margin: 30px auto;
+	max-width: 700px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+/* ---------------------------------------------------- */
+
+/* Buttons */
+button:focus,input:focus{outline:none}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+	line-height: 20px;
+	background-color: #eee;
+	color: #000;
+    cursor: pointer;
+	text-decoration: none;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	margin: 0;
+	outline: none;
+	vertical-align: middle;
+	text-align: center;
+}
+.btn:hover {background-color:#E0E0E0}
+.btn:active {background-color:#BDBDBD}
+
+/* Large */
+.btn.btn-large {
+    padding: 10px 16px;
+    font-size: 18px;
+}
+/* Small */
+.btn.btn-small {
+	padding: 3px 9px;
+	font-size: 12px;
+}
+
+/* Red */
+.btn-red{background-color:#E57373;color:#FFEBEE}
+.btn-red:hover{background-color:#EF5350}
+.btn-red:active{background-color:#E53935}
+
+/* Pink */
+.btn-pink{background-color:#F06292;color:#fff}
+.btn-pink:hover{background-color:#EC407A}
+.btn-pink:active{background-color:#D81B60}
+
+/* Purple */
+.btn-purple{background-color:#BA68C8;color:#fff}
+.btn-purple:hover{background-color:#AB47BC}
+.btn-purple:active{background-color:#8E24AA}
+
+/* Indigo */
+.btn-indigo{background-color:#7986CB;color:#fff}
+.btn-indigo:hover{background-color:#5C6BC0}
+.btn-indigo:active{background-color:#3949AB}
+
+/* Blue */
+.btn-blue{background-color:#64B5F6;color:#fff}
+.btn-blue:hover{background-color:#42A5F5}
+.btn-blue:active{background-color:#1E88E5}
+
+/* Cyan */
+.btn-cyan{background-color:#4DD0E1;color:#fff}
+.btn-cyan:hover{background-color:#26C6DA}
+.btn-cyan:active{background-color:#00ACC1}
+
+/* Teal */
+.btn-teal{background-color:#4DB6AC;color:#fff}
+.btn-teal:hover{background-color:#26A69A}
+.btn-teal:active{background-color:#00897B}
+
+/* Green */
+.btn-green{background-color:#81C784;color:#fff}
+.btn-green:hover{background-color:#66BB6A}
+.btn-green:active{background-color:#43A047}
+
+/* Orange */
+.btn-orange{background-color:#FFB74D;color:#fff}
+.btn-orange:hover{background-color:#FFA726}
+.btn-orange:active{background-color:#FB8C00}
+
+/* Brown */
+.btn-brown{background-color:#A1887F;color:#fff}
+.btn-brown:hover{background-color:#8D6E63}
+.btn-brown:active{background-color:#6D4C41}
+
+/* Blue Gray */
+.btn-bgray{background-color:#90A4AE;color:#fff}
+.btn-bgray:hover{background-color:#78909C}
+.btn-bgray:active{background-color:#546E7A}
